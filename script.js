@@ -26,7 +26,7 @@ function GetImage(ev){
 
     img.setAttribute("src",reader.result);
 
-    let txt="<h2>Image Information</h2>";
+    let txt="<h2>File Information</h2>";
     txt += "FileName：" + file.name +'<br>';
     txt += "FileSize：" + file.size +' Byte<br>';
     txt += '<br>';
